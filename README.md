@@ -37,29 +37,28 @@ Para esta práctica, necesité tener claros estos temas:
 
 **Paso 1: Creación de los contenedores.** Empecé levantando los servidores con la imagen oficial de Nginx. El del instituto lo puse en el puerto 8089 y mi perfil personal en el 8090.
 
-*(Aquí pon la foto donde se ve que escribiste el comando: `docker run -d --name nginx1...`)*
-![Comando de creación](AQUÍ_PEGA_TU_FOTO_DE_LA_TERMINAL_1)
+Captura de pantalla 2026-04-21 185830.png
 
 **Paso 2: Creación de los archivos HTML.**
 Usé el comando `echo` para crear los archivos `index.html` con la información del IST y mis datos personales.
 
-*(Aquí pon la foto donde se ve que escribiste el comando: `echo "<h1>IST..." > index1.html`)*
-![Comando echo](AQUÍ_PEGA_TU_FOTO_DE_LA_TERMINAL_2)
+Captura de pantalla 2026-04-21 190214.png
 
 **Paso 3: Transferencia con Docker CP.**
 Finalmente, moví los archivos de la terminal hacia adentro de cada contenedor para que se actualice la página.
 
-*(Aquí pon la foto donde se ve que escribiste el comando: `docker cp index1.html nginx1...`)*
-![Comando docker cp](AQUÍ_PEGA_TU_FOTO_DE_LA_TERMINAL_3)
+
+Captura de pantalla 2026-04-21 190246.png
+
 
 ### 9. Resultados esperados:
 Se logró que cada puerto muestre una página personalizada. Aquí las capturas del funcionamiento:
 
 **Servidor 1: Información Institucional (Puerto 8089)**
-![Resultado 8089](image_0e6edf.png)
+Captura de pantalla 2026-04-21 185322.png
 
 **Servidor 2: Información Estudiante (Puerto 8090)**
-![Resultado 8090](image_0e6ea8.png)
+Captura de pantalla 2026-04-21 185335.png
 
 ### 10. Bibliografía
 * Turnbull, J. (2017). *The Docker Book: Containerization is the new virtualization*. Lulu.com.
